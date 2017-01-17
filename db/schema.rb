@@ -22,8 +22,8 @@ ActiveRecord::Schema.define(version: 20170115173250) do
     t.string   "city"
     t.string   "state"
     t.string   "zipcode"
-    t.string   "latitude"
-    t.string   "longitude"
+    t.float    "latitude"
+    t.float    "longitude"
     t.string   "county"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
